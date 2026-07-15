@@ -23,5 +23,5 @@ let handler = async (m, { conn }) => {
 handler.help = ['list']
 handler.command = ['list']
 handler.tags =['infobot']
-handler.limit = true 
+handler.limit = false 
 export default handler
