@@ -93,6 +93,6 @@ const handler = async (m, { conn, text, args, usedPrefix, command }) => {
 
 handler.help = handler.command = ['editimage'];
 handler.tags = ['editor'];
-handler.limit = true;
+handler.limit = false;
 
 export default handler;
